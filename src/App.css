@@ -1,0 +1,125 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+html{
+  font-size: 100%;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  max-width: 1400px;
+  overflow-x: hidden;
+  /* background-color: rgb(253, 251, 247); */
+}
+h1{
+  font-size: 4rem;
+}
+.btn-a{
+  text-decoration: none;
+  /* border: 1px solid red; */
+  padding: 0.1rem 0.9rem;
+  border-radius: 12px;
+  color: white;
+  max-width: 150px;
+  text-align: center;
+  font-size: 14px;
+}
+.filled-a{
+  background-color: rgb(4, 46, 120);
+  padding: 0.4rem 2rem;
+}
+#navbar{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 2rem;
+  background-color: rgb(4, 46, 120);
+  position: fixed;
+  top: 0%;
+  left: 0%;
+}
+#navbar ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style:none;
+  gap: 2rem;
+}
+
+
+.home-first,.contact-first{
+  max-width: 1400px;
+  height: 100vh;
+  width: 100%;
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 2px solid red; */
+  padding-top: 6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 3rem;
+}
+
+.flex-text{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.flex-text p{
+  max-width: 500px;
+}
+
+.common-images{
+  width: 400px;
+  height: 400px;
+  object-fit: fill;
+}
+
+.card-section ,.contact-second{
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 2rem;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem 0.2rem;
+  border-radius: 12px;
+  border: 2px solid blue;
+  background-color: white;
+}
+.card-body p{
+  text-align: center;
+  max-width: 250px;
+}
+.card-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+#footer{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem 2rem;
+  background-color:rgb(4, 46, 120);
+  color: white;
+}
+#footer ul li{
+  list-style:none;
+  line-height: 2rem;
+}
